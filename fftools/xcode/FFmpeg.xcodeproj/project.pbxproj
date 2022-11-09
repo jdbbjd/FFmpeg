@@ -1,0 +1,1885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		36484E6B34E140E4970D094B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AD6F6C15306340659B9AAD52 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CB55FC74FA9C35708593A232 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F3B92C5007BA4B849704AA2D /* PBXTargetDependency */,
+				09879954F7BC4A41A89AFE21 /* PBXTargetDependency */,
+				8FF86A431E9348D4AA15FD82 /* PBXTargetDependency */,
+				103C17F8BF3F42C685AE9EB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F09CD8398B5245F88326651B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0316837C014C4187AA00449D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				06F365B5A5398D7A6C70E480 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		010BC84461FC4D489733EF9B /* ffplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 676523DBB8684AE6A9957BB7 /* ffplay.c */; };
+		3E52732257D745A5991B9FA7 /* opt_common.c in Sources */ = {isa = PBXBuildFile; fileRef = FC5E67310EEB4191A78A8295 /* opt_common.c */; };
+		406F964A3AC148B0A378DE4C /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = BA20B97251AA42AB8B869C30 /* cmdutils.c */; };
+		43D9EEEA76904EEE91D595A4 /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = B09AB54AA39944AC9D242C96 /* cmdutils.c */; };
+		8142433668F14BF7B10F4317 /* opt_common.c in Sources */ = {isa = PBXBuildFile; fileRef = FBD526DD035A46B7AB5C6AA7 /* opt_common.c */; };
+		A712F1B57830434CAF379659 /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84166DACD9194DC583D1B007 /* cmdutils.c */; };
+		B2D7B2CE4CED46C68E6D7181 /* ffmpeg_hw.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D6F5A86DB434BA320EF9B /* ffmpeg_hw.c */; };
+		B5DFC649B3454F00914CEBC0 /* ffmpeg_opt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B94AE25D05A4E969E6FB7C4 /* ffmpeg_opt.c */; };
+		BB3CEADF706042D7BF881535 /* ffprobe.c in Sources */ = {isa = PBXBuildFile; fileRef = 274BDC1BFE0E4B318A6F50A1 /* ffprobe.c */; };
+		C830C930F11E41018DCFCC89 /* ffmpeg_mux.c in Sources */ = {isa = PBXBuildFile; fileRef = F74F9018B1B5452BB031CC01 /* ffmpeg_mux.c */; };
+		DFC079FEB6F64A65BC80EE8E /* ffmpeg_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = E2861BB0ED1A4D13B66F0700 /* ffmpeg_filter.c */; };
+		FB9D9FBCD0AA42C3A2DD4AE6 /* opt_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C49F13906B84D279F896931 /* opt_common.c */; };
+		FCB951FBE66D4834AB06EDFF /* ffmpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 075F57FE01D749358D33358B /* ffmpeg.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099428AC7E404A558AE7E04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E91056CD8047BF981F3BE2;
+			remoteInfo = ffplay;
+		};
+		1291BAEAD7DF4110A355663A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD54B251777A4560A062146F;
+			remoteInfo = ffmpeg;
+		};
+		5BD61EEFE74E4149A1ACF8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09CD8398B5245F88326651B;
+			remoteInfo = ZERO_CHECK;
+		};
+		724443E8E7224E898CB03731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09CD8398B5245F88326651B;
+			remoteInfo = ZERO_CHECK;
+		};
+		86E622CA237040EA8F91A2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09CD8398B5245F88326651B;
+			remoteInfo = ZERO_CHECK;
+		};
+		8E39EE9490B143ADA3A75EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44F7DFA0101413C92320A7C;
+			remoteInfo = ffprobe;
+		};
+		BA3F1A90A03B4067843EA4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648C2FFF174648BFAC517662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09CD8398B5245F88326651B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A90CA442D6433AA5732310 /* cmdutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = cmdutils.h; sourceTree = SOURCE_ROOT; };
+		075F57FE01D749358D33358B /* ffmpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffmpeg.c; sourceTree = SOURCE_ROOT; };
+		1191B092E88143FB93072DDE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		274BDC1BFE0E4B318A6F50A1 /* ffprobe.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffprobe.c; sourceTree = SOURCE_ROOT; };
+		3EAB4CABB4FC456DA374D143 /* opt_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = opt_common.h; sourceTree = SOURCE_ROOT; };
+		3F5A636BF9CF470D899334FC /* ffplay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ffplay; sourceTree = BUILT_PRODUCTS_DIR; };
+		4229CEEC7FC94C1591FD6C31 /* ffmpeg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = ffmpeg.h; sourceTree = SOURCE_ROOT; };
+		488DFDF215C14EF9B29EB702 /* opt_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = opt_common.h; sourceTree = SOURCE_ROOT; };
+		676523DBB8684AE6A9957BB7 /* ffplay.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffplay.c; sourceTree = SOURCE_ROOT; };
+		6B0D6F5A86DB434BA320EF9B /* ffmpeg_hw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffmpeg_hw.c; sourceTree = SOURCE_ROOT; };
+		6C49F13906B84D279F896931 /* opt_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = opt_common.c; sourceTree = SOURCE_ROOT; };
+		7B94AE25D05A4E969E6FB7C4 /* ffmpeg_opt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffmpeg_opt.c; sourceTree = SOURCE_ROOT; };
+		7F501C7CD59D4193BC9EE5B7 /* cmdutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = cmdutils.h; sourceTree = SOURCE_ROOT; };
+		831D47F3A7F7497B841BAEEC /* opt_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = opt_common.h; sourceTree = SOURCE_ROOT; };
+		84166DACD9194DC583D1B007 /* cmdutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = cmdutils.c; sourceTree = SOURCE_ROOT; };
+		8735CB71FDE248AE88DB3273 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B09AB54AA39944AC9D242C96 /* cmdutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = cmdutils.c; sourceTree = SOURCE_ROOT; };
+		B2FEA69D07134C31889B0DC0 /* ffprobe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ffprobe; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA20B97251AA42AB8B869C30 /* cmdutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = cmdutils.c; sourceTree = SOURCE_ROOT; };
+		C03E6866BDCD4B31BFA7A5D2 /* cmdutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = cmdutils.h; sourceTree = SOURCE_ROOT; };
+		C7A5C8F848D64438BD954FBA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CDC82733B1E54D4B85168B42 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEA8ED99939543CFA8F538BF /* ffmpeg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2861BB0ED1A4D13B66F0700 /* ffmpeg_filter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffmpeg_filter.c; sourceTree = SOURCE_ROOT; };
+		F74F9018B1B5452BB031CC01 /* ffmpeg_mux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ffmpeg_mux.c; sourceTree = SOURCE_ROOT; };
+		FBD526DD035A46B7AB5C6AA7 /* opt_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = opt_common.c; sourceTree = SOURCE_ROOT; };
+		FC5E67310EEB4191A78A8295 /* opt_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = opt_common.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3641052D7951407E8769959B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D82130E7B4E7EBED5BC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCD54BC1984BF28CA65ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018EC3F4610C4FD8B0D1E2B5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03E6866BDCD4B31BFA7A5D2 /* cmdutils.h */,
+				831D47F3A7F7497B841BAEEC /* opt_common.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		092034595F7D44D9BC9CF6B4 /* ffprobe */ = {
+			isa = PBXGroup;
+			children = (
+				16BF632215A3403BAB51F0D3 /* Source Files */,
+				018EC3F4610C4FD8B0D1E2B5 /* Header Files */,
+				C7A5C8F848D64438BD954FBA /* CMakeLists.txt */,
+			);
+			name = ffprobe;
+			sourceTree = "<group>";
+		};
+		16BF632215A3403BAB51F0D3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA20B97251AA42AB8B869C30 /* cmdutils.c */,
+				274BDC1BFE0E4B318A6F50A1 /* ffprobe.c */,
+				FBD526DD035A46B7AB5C6AA7 /* opt_common.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		235199865E574DFE83584C34 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A90CA442D6433AA5732310 /* cmdutils.h */,
+				3EAB4CABB4FC456DA374D143 /* opt_common.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2EAE46A6D33D486B85CE9700 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE0CCBE12841F0BA0C12DA /* CMake Rules */,
+				CDC82733B1E54D4B85168B42 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3688B2668B08448DA636936A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F501C7CD59D4193BC9EE5B7 /* cmdutils.h */,
+				4229CEEC7FC94C1591FD6C31 /* ffmpeg.h */,
+				488DFDF215C14EF9B29EB702 /* opt_common.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3DC6BD7D813948CDA041276F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8ED99939543CFA8F538BF /* ffmpeg */,
+				3F5A636BF9CF470D899334FC /* ffplay */,
+				B2FEA69D07134C31889B0DC0 /* ffprobe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78323B74E8DD4117871233D7 = {
+			isa = PBXGroup;
+			children = (
+				B0374CE4E83A426EB8725F5F /* ffmpeg */,
+				A501020B1A814DB2B2B1A394 /* ffplay */,
+				092034595F7D44D9BC9CF6B4 /* ffprobe */,
+				2EAE46A6D33D486B85CE9700 /* ALL_BUILD */,
+				3DC6BD7D813948CDA041276F /* Products */,
+				84DA351A3E3E4A769C59A8C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DA351A3E3E4A769C59A8C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920F66ED9B4F44C49E6B531E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				84166DACD9194DC583D1B007 /* cmdutils.c */,
+				676523DBB8684AE6A9957BB7 /* ffplay.c */,
+				6C49F13906B84D279F896931 /* opt_common.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9303748504984C4B8AA31F22 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09AB54AA39944AC9D242C96 /* cmdutils.c */,
+				075F57FE01D749358D33358B /* ffmpeg.c */,
+				E2861BB0ED1A4D13B66F0700 /* ffmpeg_filter.c */,
+				6B0D6F5A86DB434BA320EF9B /* ffmpeg_hw.c */,
+				F74F9018B1B5452BB031CC01 /* ffmpeg_mux.c */,
+				7B94AE25D05A4E969E6FB7C4 /* ffmpeg_opt.c */,
+				FC5E67310EEB4191A78A8295 /* opt_common.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9BEE0CCBE12841F0BA0C12DA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A501020B1A814DB2B2B1A394 /* ffplay */ = {
+			isa = PBXGroup;
+			children = (
+				920F66ED9B4F44C49E6B531E /* Source Files */,
+				235199865E574DFE83584C34 /* Header Files */,
+				1191B092E88143FB93072DDE /* CMakeLists.txt */,
+			);
+			name = ffplay;
+			sourceTree = "<group>";
+		};
+		B0374CE4E83A426EB8725F5F /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				9303748504984C4B8AA31F22 /* Source Files */,
+				3688B2668B08448DA636936A /* Header Files */,
+				8735CB71FDE248AE88DB3273 /* CMakeLists.txt */,
+			);
+			name = ffmpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E91056CD8047BF981F3BE2 /* ffplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C098F3A1F2F14ACB9BBB9C52 /* Build configuration list for PBXNativeTarget "ffplay" */;
+			buildPhases = (
+				030F79A858B1485292794124 /* Sources */,
+				3641052D7951407E8769959B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E51109529584DAD8FFF010B /* PBXTargetDependency */,
+			);
+			name = ffplay;
+			productName = ffplay;
+			productReference = 3F5A636BF9CF470D899334FC /* ffplay */;
+			productType = "com.apple.product-type.tool";
+		};
+		AD54B251777A4560A062146F /* ffmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC432FC4AE94406A1CCEAB0 /* Build configuration list for PBXNativeTarget "ffmpeg" */;
+			buildPhases = (
+				B723AF848D7F4FC29693737D /* Sources */,
+				537D82130E7B4E7EBED5BC20 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0AD7194D3F474EB287A25C /* PBXTargetDependency */,
+			);
+			name = ffmpeg;
+			productName = ffmpeg;
+			productReference = CEA8ED99939543CFA8F538BF /* ffmpeg */;
+			productType = "com.apple.product-type.tool";
+		};
+		E44F7DFA0101413C92320A7C /* ffprobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456811D481584082843D1A80 /* Build configuration list for PBXNativeTarget "ffprobe" */;
+			buildPhases = (
+				A17C6E8F0BB44A96A95D0F12 /* Sources */,
+				A4FCD54BC1984BF28CA65ED3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB748A11E43543FD9CE072EE /* PBXTargetDependency */,
+			);
+			name = ffprobe;
+			productName = ffprobe;
+			productReference = B2FEA69D07134C31889B0DC0 /* ffprobe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648C2FFF174648BFAC517662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 60CDF443A324490D80FC9BAD /* Build configuration list for PBXProject "FFmpeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78323B74E8DD4117871233D7;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				36484E6B34E140E4970D094B /* ALL_BUILD */,
+				F09CD8398B5245F88326651B /* ZERO_CHECK */,
+				AD54B251777A4560A062146F /* ffmpeg */,
+				64E91056CD8047BF981F3BE2 /* ffplay */,
+				E44F7DFA0101413C92320A7C /* ffprobe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F365B5A5398D7A6C70E480 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  make -f /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  make -f /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  make -f /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  make -f /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB55FC74FA9C35708593A232 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030F79A858B1485292794124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712F1B57830434CAF379659 /* cmdutils.c in Sources */,
+				010BC84461FC4D489733EF9B /* ffplay.c in Sources */,
+				FB9D9FBCD0AA42C3A2DD4AE6 /* opt_common.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C6E8F0BB44A96A95D0F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406F964A3AC148B0A378DE4C /* cmdutils.c in Sources */,
+				BB3CEADF706042D7BF881535 /* ffprobe.c in Sources */,
+				8142433668F14BF7B10F4317 /* opt_common.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B723AF848D7F4FC29693737D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D9EEEA76904EEE91D595A4 /* cmdutils.c in Sources */,
+				FCB951FBE66D4834AB06EDFF /* ffmpeg.c in Sources */,
+				DFC079FEB6F64A65BC80EE8E /* ffmpeg_filter.c in Sources */,
+				B2D7B2CE4CED46C68E6D7181 /* ffmpeg_hw.c in Sources */,
+				C830C930F11E41018DCFCC89 /* ffmpeg_mux.c in Sources */,
+				B5DFC649B3454F00914CEBC0 /* ffmpeg_opt.c in Sources */,
+				3E52732257D745A5991B9FA7 /* opt_common.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09879954F7BC4A41A89AFE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD54B251777A4560A062146F /* ffmpeg */;
+			targetProxy = 1291BAEAD7DF4110A355663A /* PBXContainerItemProxy */;
+		};
+		0D0AD7194D3F474EB287A25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09CD8398B5245F88326651B /* ZERO_CHECK */;
+			targetProxy = 86E622CA237040EA8F91A2AA /* PBXContainerItemProxy */;
+		};
+		103C17F8BF3F42C685AE9EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44F7DFA0101413C92320A7C /* ffprobe */;
+			targetProxy = 8E39EE9490B143ADA3A75EFA /* PBXContainerItemProxy */;
+		};
+		4E51109529584DAD8FFF010B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09CD8398B5245F88326651B /* ZERO_CHECK */;
+			targetProxy = 724443E8E7224E898CB03731 /* PBXContainerItemProxy */;
+		};
+		8FF86A431E9348D4AA15FD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E91056CD8047BF981F3BE2 /* ffplay */;
+			targetProxy = 099428AC7E404A558AE7E04E /* PBXContainerItemProxy */;
+		};
+		F3B92C5007BA4B849704AA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09CD8398B5245F88326651B /* ZERO_CHECK */;
+			targetProxy = BA3F1A90A03B4067843EA4DE /* PBXContainerItemProxy */;
+		};
+		FB748A11E43543FD9CE072EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09CD8398B5245F88326651B /* ZERO_CHECK */;
+			targetProxy = 5BD61EEFE74E4149A1ACF8EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0568F98300BA4E95B9A755F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffprobe/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffprobe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		09F3DB0BA6174255BBC71D2F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		1CDEEC18FC2D44929CE985C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffmpeg/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffmpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		2D1C936E2AAD42718CBDDC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffplay;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffplay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		328BD8F0FFAE4F619854230F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		3D0E665A2C73441384A5FDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		6272C3B308F244FB9CD6B95E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6538C9F534284AFC94F60102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffmpeg;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffmpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		70128DB8A3F847988D83A570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffmpeg;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffmpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		77AC0B9FDBF44A7FAAC2AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffprobe;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffprobe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		7BF2DC1A37F34C10A4B7A92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		94CCFD56CF5842BB9EA9C420 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffmpeg/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffmpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		9C29EAA6B1684FFCB68A4915 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		9C2BEAF14C76449D88696B8F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffplay/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffplay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		A5A29C58EEC845D8AEE8BA5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffprobe/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffprobe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		AFD4CD3267C04EF984940BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/build;
+			};
+			name = Debug;
+		};
+		B2E8CBBB16E0466CAA5747D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		CA43E6EFB0884BA98C9E6389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D13262D4B74E46AE8FE082E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		DD93FCF3F66A41DDBA2DF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffprobe;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffprobe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		E35CFB6395F24D508F3BA31F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E4DF679A77A545EA8784EADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffplay;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffplay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		F9072F18B7C94AD781F79789 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/bin/ffplay/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/../build,
+					/Users/tl/Documents/workSpace/github/FFmpeg/fftools/..,
+					/usr/local/include/SDL2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Security,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreImage,
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreHaptics,
+					"-framework",
+					Metal,
+					"-framework",
+					OpenGL,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libbz2.1.0.5.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.2.4.0.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/liblzma.tbd,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.1.tbd,
+					/usr/local/lib/libavdevice.dylib,
+					/usr/local/lib/libavformat.dylib,
+					/usr/local/lib/libavfilter.dylib,
+					/usr/local/lib/libavcodec.dylib,
+					/usr/local/lib/libswresample.dylib,
+					/usr/local/lib/libswscale.dylib,
+					/usr/local/lib/libavutil.dylib,
+					/usr/local/lib/libSDL2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ffplay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		F9B61694BA5949F5910BE2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/tl/Documents/workSpace/github/FFmpeg/fftools/xcode/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0316837C014C4187AA00449D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF2DC1A37F34C10A4B7A92F /* Debug */,
+				3D0E665A2C73441384A5FDCD /* Release */,
+				E35CFB6395F24D508F3BA31F /* MinSizeRel */,
+				328BD8F0FFAE4F619854230F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		456811D481584082843D1A80 /* Build configuration list for PBXNativeTarget "ffprobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AC0B9FDBF44A7FAAC2AE8C /* Debug */,
+				DD93FCF3F66A41DDBA2DF8FC /* Release */,
+				A5A29C58EEC845D8AEE8BA5B /* MinSizeRel */,
+				0568F98300BA4E95B9A755F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CC432FC4AE94406A1CCEAB0 /* Build configuration list for PBXNativeTarget "ffmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6538C9F534284AFC94F60102 /* Debug */,
+				70128DB8A3F847988D83A570 /* Release */,
+				1CDEEC18FC2D44929CE985C8 /* MinSizeRel */,
+				94CCFD56CF5842BB9EA9C420 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60CDF443A324490D80FC9BAD /* Build configuration list for PBXProject "FFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD4CD3267C04EF984940BF0 /* Debug */,
+				F9B61694BA5949F5910BE2DE /* Release */,
+				9C29EAA6B1684FFCB68A4915 /* MinSizeRel */,
+				09F3DB0BA6174255BBC71D2F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD6F6C15306340659B9AAD52 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA43E6EFB0884BA98C9E6389 /* Debug */,
+				B2E8CBBB16E0466CAA5747D7 /* Release */,
+				D13262D4B74E46AE8FE082E1 /* MinSizeRel */,
+				6272C3B308F244FB9CD6B95E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C098F3A1F2F14ACB9BBB9C52 /* Build configuration list for PBXNativeTarget "ffplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DF679A77A545EA8784EADE /* Debug */,
+				2D1C936E2AAD42718CBDDC90 /* Release */,
+				F9072F18B7C94AD781F79789 /* MinSizeRel */,
+				9C2BEAF14C76449D88696B8F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648C2FFF174648BFAC517662 /* Project object */;
+}

@@ -85,7 +85,8 @@ int main(int argc, char **argv)
     codec_name = argv[2];
 
     /* find the mpeg1video encoder */
-    codec = avcodec_find_encoder_by_name(codec_name);
+//    codec = avcodec_find_encoder_by_name(codec_name);
+    codec = avcodec_find_encoder(AV_CODEC_ID_H264);
     if (!codec) {
         fprintf(stderr, "Codec '%s' not found\n", codec_name);
         exit(1);
@@ -102,10 +103,10 @@ int main(int argc, char **argv)
         exit(1);
 
     /* put sample parameters */
-    c->bit_rate = 400000;
+    c->bit_rate = 200000;
     /* resolution must be a multiple of two */
-    c->width = 352;
-    c->height = 288;
+    c->width = 640;
+    c->height = 480;
     /* frames per second */
     c->time_base = (AVRational){1, 25};
     c->framerate = (AVRational){25, 1};
@@ -152,7 +153,7 @@ int main(int argc, char **argv)
     }
 
     /* encode 1 second of video */
-    for (i = 0; i < 25; i++) {
+    for (i = 0; i < 250; i++) {
         fflush(stdout);
 
         /* Make sure the frame data is writable.

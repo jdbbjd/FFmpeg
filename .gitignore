@@ -41,3 +41,12 @@
 /src
 /mapfile
 /tools/python/__pycache__/
+build/**/*.o
+doc/examples/xcode/build/*
+fftools/xcode/build/*
+fftools/xcode/FFmpeg.build/*
+doc/examples/xcode/CMakeFiles/*
+fftools/xcode/CMakeFiles/*
+build/doc/*
+doc/examples/xcode/FFmpeg.build/*
+*.DS_Store
