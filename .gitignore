@@ -48,5 +48,5 @@ fftools/xcode/FFmpeg.build/*
 doc/examples/xcode/CMakeFiles/*
 fftools/xcode/CMakeFiles/*
 build/doc/*
-doc/examples/xcode/FFmpeg.build/*
+doc/examples/xcode/FFmpegExamples.build/*
 *.DS_Store

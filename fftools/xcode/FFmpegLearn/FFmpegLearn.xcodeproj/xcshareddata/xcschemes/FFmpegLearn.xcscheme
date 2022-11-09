@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5883134267440F8906CAA66"
-               BuildableName = "encode_video"
-               BlueprintName = "encode_video"
-               ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
+               BlueprintIdentifier = "722C70B9291BB6410010E950"
+               BuildableName = "FFmpegLearn"
+               BlueprintName = "FFmpegLearn"
+               ReferencedContainer = "container:FFmpegLearn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,22 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5883134267440F8906CAA66"
-            BuildableName = "encode_video"
-            BlueprintName = "encode_video"
-            ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
+            BlueprintIdentifier = "722C70B9291BB6410010E950"
+            BuildableName = "FFmpegLearn"
+            BlueprintName = "FFmpegLearn"
+            ReferencedContainer = "container:FFmpegLearn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "/usr/local/Cellar/ffmpeg/5.0.1_2/share/ffmpeg/examples/ReSources/out/encode_video/out.h264"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "mpeg1video"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -71,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5883134267440F8906CAA66"
-            BuildableName = "encode_video"
-            BlueprintName = "encode_video"
-            ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
+            BlueprintIdentifier = "722C70B9291BB6410010E950"
+            BuildableName = "FFmpegLearn"
+            BlueprintName = "FFmpegLearn"
+            ReferencedContainer = "container:FFmpegLearn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

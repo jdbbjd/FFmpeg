@@ -12,12 +12,17 @@
 		<key>ZERO_CHECK.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>ffmpeg.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
+		</dict>
+		<key>ffmpeg_learn.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>ffplay.xcscheme_^#shared#^_</key>
 		<dict>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>AD54B251777A4560A062146F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E44F7DFA0101413C92320A7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

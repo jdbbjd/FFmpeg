@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64E91056CD8047BF981F3BE2"
-               BuildableName = "ffplay"
-               BlueprintName = "ffplay"
+               BlueprintIdentifier = "E44F7DFA0101413C92320A7C"
+               BuildableName = "ffprobe"
+               BlueprintName = "ffprobe"
                ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,27 +44,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "64E91056CD8047BF981F3BE2"
-            BuildableName = "ffplay"
-            BlueprintName = "ffplay"
+            BlueprintIdentifier = "E44F7DFA0101413C92320A7C"
+            BuildableName = "ffprobe"
+            BlueprintName = "ffprobe"
             ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/usr/local/Cellar/ffmpeg/5.0.1_2/share/ffmpeg/examples/ReSources/out/encode_video/out.h264"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/Users/tl/Downloads/ezgif.com-gif-maker.png"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
             argument = "/Users/tl/Downloads/ezgif-1-29bc812642.png"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/Users/tl/Downloads/test.png"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
@@ -83,9 +71,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "64E91056CD8047BF981F3BE2"
-            BuildableName = "ffplay"
-            BlueprintName = "ffplay"
+            BlueprintIdentifier = "E44F7DFA0101413C92320A7C"
+            BuildableName = "ffprobe"
+            BlueprintName = "ffprobe"
             ReferencedContainer = "container:xcode/FFmpeg.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
