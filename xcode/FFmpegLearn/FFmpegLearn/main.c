@@ -18,7 +18,6 @@ void decodeFile(const char * filePath)
     const AVCodec *decodec = NULL;
     AVDictionary *inFormatOptions = NULL;
     
-    deFormatCtx = avformat_alloc_context();
     int ret = avformat_open_input(&deFormatCtx, filePath, deFormatCtx->iformat, &inFormatOptions);
     
     ret = av_find_best_stream(deFormatCtx, AVMEDIA_TYPE_VIDEO, -1, -1, NULL, 0);

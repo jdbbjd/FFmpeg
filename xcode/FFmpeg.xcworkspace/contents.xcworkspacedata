@@ -5,9 +5,9 @@
       location = "group:FFmpegLearn/FFmpegLearn.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:FFmpeg.xcodeproj">
+      location = "group:../fftools/xcode/FFmpeg.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../../doc/examples/xcode/FFmpegExamples.xcodeproj">
+      location = "group:../doc/examples/xcode/FFmpegExamples.xcodeproj">
    </FileRef>
 </Workspace>

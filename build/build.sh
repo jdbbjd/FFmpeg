@@ -1,3 +1,3 @@
-../configure --enable-shared --arch=x86_64 --disable-optimizations --disable-x86asm
+../configure --enable-shared --arch=x86_64 --disable-optimizations --disable-x86asm --disable-stripping
 make clean
 make -j8 && make install
