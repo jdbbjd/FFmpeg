@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		722C70BE291BB6410010E950 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 722C70BD291BB6410010E950 /* main.c */; };
+		72D13755291DE77E009F2FC6 /* ffdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D13753291DE77E009F2FC6 /* ffdecoder.cpp */; };
+		72D13758291DE788009F2FC6 /* ffencoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D13756291DE788009F2FC6 /* ffencoder.cpp */; };
+		72D1375B291DE798009F2FC6 /* ffrender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D13759291DE798009F2FC6 /* ffrender.cpp */; };
+		72D1375E291DE907009F2FC6 /* FileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D1375C291DE907009F2FC6 /* FileUtils.cpp */; };
+		72D13763291E3E63009F2FC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 722C70BD291BB6410010E950 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,16 @@
 
 /* Begin PBXFileReference section */
 		722C70BA291BB6410010E950 /* FFmpegLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FFmpegLearn; sourceTree = BUILT_PRODUCTS_DIR; };
-		722C70BD291BB6410010E950 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		722C70BD291BB6410010E950 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		72D13753291DE77E009F2FC6 /* ffdecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ffdecoder.cpp; sourceTree = "<group>"; };
+		72D13754291DE77E009F2FC6 /* ffdecoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ffdecoder.hpp; sourceTree = "<group>"; };
+		72D13756291DE788009F2FC6 /* ffencoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ffencoder.cpp; sourceTree = "<group>"; };
+		72D13757291DE788009F2FC6 /* ffencoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ffencoder.hpp; sourceTree = "<group>"; };
+		72D13759291DE798009F2FC6 /* ffrender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ffrender.cpp; sourceTree = "<group>"; };
+		72D1375A291DE798009F2FC6 /* ffrender.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ffrender.hpp; sourceTree = "<group>"; };
+		72D1375C291DE907009F2FC6 /* FileUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtils.cpp; sourceTree = "<group>"; };
+		72D1375D291DE907009F2FC6 /* FileUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileUtils.hpp; sourceTree = "<group>"; };
+		72D1375F291DE933009F2FC6 /* ffmpegInclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffmpegInclude.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +70,16 @@
 		722C70BC291BB6410010E950 /* FFmpegLearn */ = {
 			isa = PBXGroup;
 			children = (
-				722C70BD291BB6410010E950 /* main.c */,
+				722C70BD291BB6410010E950 /* main.cpp */,
+				72D13753291DE77E009F2FC6 /* ffdecoder.cpp */,
+				72D13754291DE77E009F2FC6 /* ffdecoder.hpp */,
+				72D13756291DE788009F2FC6 /* ffencoder.cpp */,
+				72D13757291DE788009F2FC6 /* ffencoder.hpp */,
+				72D13759291DE798009F2FC6 /* ffrender.cpp */,
+				72D1375A291DE798009F2FC6 /* ffrender.hpp */,
+				72D1375C291DE907009F2FC6 /* FileUtils.cpp */,
+				72D1375D291DE907009F2FC6 /* FileUtils.hpp */,
+				72D1375F291DE933009F2FC6 /* ffmpegInclude.h */,
 			);
 			path = FFmpegLearn;
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722C70BE291BB6410010E950 /* main.c in Sources */,
+				72D13758291DE788009F2FC6 /* ffencoder.cpp in Sources */,
+				72D1375B291DE798009F2FC6 /* ffrender.cpp in Sources */,
+				72D13755291DE77E009F2FC6 /* ffdecoder.cpp in Sources */,
+				72D13763291E3E63009F2FC6 /* main.cpp in Sources */,
+				72D1375E291DE907009F2FC6 /* FileUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +294,6 @@
 					/usr/local/lib/libswresample.dylib,
 					/usr/local/lib/libswscale.dylib,
 					/usr/local/lib/libavutil.dylib,
-					/usr/local/lib/libSDL2.dylib,
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,7 +331,6 @@
 					/usr/local/lib/libswresample.dylib,
 					/usr/local/lib/libswscale.dylib,
 					/usr/local/lib/libavutil.dylib,
-					/usr/local/lib/libSDL2.dylib,
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";

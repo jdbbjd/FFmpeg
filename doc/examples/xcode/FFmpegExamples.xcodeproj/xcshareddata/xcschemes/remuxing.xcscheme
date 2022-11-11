@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5356F437E5F648B8944DA2C3"
+               BlueprintIdentifier = "F65DE9BFF7834E628F222E85"
                BuildableName = "remuxing"
                BlueprintName = "remuxing"
                ReferencedContainer = "container:xcode/FFmpegExamples.xcodeproj">
@@ -44,12 +44,22 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5356F437E5F648B8944DA2C3"
+            BlueprintIdentifier = "F65DE9BFF7834E628F222E85"
             BuildableName = "remuxing"
             BlueprintName = "remuxing"
             ReferencedContainer = "container:xcode/FFmpegExamples.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/tl/Documents/workSpace/github/FFmpeg/xcode/Resources/in/IMG_1180.mov"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Users/tl/Documents/workSpace/github/FFmpeg/xcode/Resources/out/remuxing.mp4"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5356F437E5F648B8944DA2C3"
+            BlueprintIdentifier = "F65DE9BFF7834E628F222E85"
             BuildableName = "remuxing"
             BlueprintName = "remuxing"
             ReferencedContainer = "container:xcode/FFmpegExamples.xcodeproj">
