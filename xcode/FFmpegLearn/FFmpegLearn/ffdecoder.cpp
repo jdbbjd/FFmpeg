@@ -81,6 +81,7 @@ void FFdecoder::start()
     _frame = av_frame_alloc();
     _packet = av_packet_alloc();
     
+    bool failed = false;
     while (av_read_frame(_deFormatCtx, _packet) >= 0)
     {
         printf("stream index: %d\n",_packet->stream_index);
@@ -89,7 +90,8 @@ void FFdecoder::start()
             if (res < 0) {
                 printf("Failed to avcodec_send_packet\n");
                 if (_callback) {
-                    _callback(-1, -1, NULL);
+                    _callback(-1, 0, NULL);
+                    failed = true;
                 }
                 break;
             }
@@ -101,15 +103,24 @@ void FFdecoder::start()
                         continue;
                     printf("Failed to avcodec_receive_frame\n");
                     if (_callback) {
-                        _callback(-1, -1, NULL);
+                        _callback(-1, 0, NULL);
+                        failed = true;
                     }
                     break;
                 }
                 _callback(0, 0, _frame);
                 av_frame_unref(_frame);
             }
+            
+            if (failed) {
+                break;
+            }
         }
         av_packet_unref(_packet);
+    }
+    if (!failed) {
+        avcodec_send_packet(_decodeCtx, NULL);
+        _callback(1, 0, NULL);
     }
 }
 

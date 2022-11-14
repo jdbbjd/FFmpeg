@@ -7,14 +7,27 @@
 
 #include "ffmpegInclude.h"
 #include "ffdecoder.hpp"
+#include "ffencoder.hpp"
 #include <string>
 
 const char* testVideo = "/xcode/Resources/in/IMG_1180.mov";
+const char* testOutVideo = "/xcode/Resources/out/IMG_1180.mp4";
 const char* testApng = "/xcode/Resources/in/in.png";
+
+static FFdecoder *_decoder = NULL;
+static FFEncoder *_encoder = NULL;
 
 void decodeCallBack(int status, int type, AVFrame *frame)
 {
+    if (frame) {
+        _encoder->encodeVideoFrame(frame);
+    }
     
+    if (status == 1) {
+        _encoder->finish();
+    }else if(status == -1) {
+        _encoder->cancel();
+    }
 }
 
 void decodeFile(const char * filePath)
@@ -42,11 +55,16 @@ void decodeFile(const char * filePath)
     
 }
 
-static FFdecoder *decoder = NULL;
+
 int main(int argc, const char * argv[]) {
-//    decodeFile(testApng);
-    std::string path = std::string(argv[1]) + testVideo;
-    decoder = new FFdecoder(path.c_str(), decodeCallBack);
+    
+    std::string outPath = std::string(argv[1]) + testOutVideo;
+    _encoder = new FFEncoder(outPath.c_str(), 1080, 1920, 30, 10000000);
+    _encoder->start();
+    
+    std::string inPath = std::string(argv[1]) + testVideo;
+    _decoder = new FFdecoder(inPath.c_str(), decodeCallBack);
+    _decoder->start();
     
     return 0;
 }
