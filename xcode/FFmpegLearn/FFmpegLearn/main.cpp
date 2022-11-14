@@ -9,17 +9,20 @@
 #include "ffdecoder.hpp"
 #include "ffencoder.hpp"
 #include <string>
+#include "ffrender.hpp"
 
 const char* testVideo = "/xcode/Resources/in/IMG_1180.mov";
 const char* testOutVideo = "/xcode/Resources/out/IMG_1180.mp4";
 const char* testApng = "/xcode/Resources/in/in.png";
 
-static FFdecoder *_decoder = NULL;
+FFdecoder *_decoder = NULL;
 static FFEncoder *_encoder = NULL;
+static FFRenderer *_renderer = NULL;
 
 void decodeCallBack(int status, int type, AVFrame *frame)
 {
     if (frame) {
+        _renderer->render(frame);
         _encoder->encodeVideoFrame(frame);
     }
     
@@ -57,6 +60,8 @@ void decodeFile(const char * filePath)
 
 
 int main(int argc, const char * argv[]) {
+    
+    _renderer = new FFRenderer();
     
     std::string outPath = std::string(argv[1]) + testOutVideo;
     _encoder = new FFEncoder(outPath.c_str(), 1080, 1920, 30, 10000000);
