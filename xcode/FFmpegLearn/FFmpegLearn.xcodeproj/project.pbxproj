@@ -12,6 +12,7 @@
 		72D1375B291DE798009F2FC6 /* ffrender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D13759291DE798009F2FC6 /* ffrender.cpp */; };
 		72D1375E291DE907009F2FC6 /* FileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D1375C291DE907009F2FC6 /* FileUtils.cpp */; };
 		72D13763291E3E63009F2FC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 722C70BD291BB6410010E950 /* main.cpp */; };
+		72D1376929232B72009F2FC6 /* VTDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D1376729232B72009F2FC6 /* VTDecoder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		72D1375C291DE907009F2FC6 /* FileUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtils.cpp; sourceTree = "<group>"; };
 		72D1375D291DE907009F2FC6 /* FileUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileUtils.hpp; sourceTree = "<group>"; };
 		72D1375F291DE933009F2FC6 /* ffmpegInclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffmpegInclude.h; sourceTree = "<group>"; };
+		72D1376729232B72009F2FC6 /* VTDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VTDecoder.cpp; sourceTree = "<group>"; };
+		72D1376829232B72009F2FC6 /* VTDecoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VTDecoder.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,18 +73,52 @@
 		722C70BC291BB6410010E950 /* FFmpegLearn */ = {
 			isa = PBXGroup;
 			children = (
+				72D1376A29232E71009F2FC6 /* Common */,
+				72D1376629232B4A009F2FC6 /* VideoToolBox */,
+				72D1376529232B36009F2FC6 /* Utils */,
+				72D1376429232B1C009F2FC6 /* FFMpeg_Sources */,
 				722C70BD291BB6410010E950 /* main.cpp */,
+			);
+			path = FFmpegLearn;
+			sourceTree = "<group>";
+		};
+		72D1376429232B1C009F2FC6 /* FFMpeg_Sources */ = {
+			isa = PBXGroup;
+			children = (
+				72D1375F291DE933009F2FC6 /* ffmpegInclude.h */,
 				72D13753291DE77E009F2FC6 /* ffdecoder.cpp */,
 				72D13754291DE77E009F2FC6 /* ffdecoder.hpp */,
 				72D13756291DE788009F2FC6 /* ffencoder.cpp */,
 				72D13757291DE788009F2FC6 /* ffencoder.hpp */,
 				72D13759291DE798009F2FC6 /* ffrender.cpp */,
 				72D1375A291DE798009F2FC6 /* ffrender.hpp */,
+			);
+			path = FFMpeg_Sources;
+			sourceTree = "<group>";
+		};
+		72D1376529232B36009F2FC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
 				72D1375C291DE907009F2FC6 /* FileUtils.cpp */,
 				72D1375D291DE907009F2FC6 /* FileUtils.hpp */,
-				72D1375F291DE933009F2FC6 /* ffmpegInclude.h */,
 			);
-			path = FFmpegLearn;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72D1376629232B4A009F2FC6 /* VideoToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				72D1376729232B72009F2FC6 /* VTDecoder.cpp */,
+				72D1376829232B72009F2FC6 /* VTDecoder.hpp */,
+			);
+			path = VideoToolBox;
+			sourceTree = "<group>";
+		};
+		72D1376A29232E71009F2FC6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +181,7 @@
 				72D1375B291DE798009F2FC6 /* ffrender.cpp in Sources */,
 				72D13755291DE77E009F2FC6 /* ffdecoder.cpp in Sources */,
 				72D13763291E3E63009F2FC6 /* main.cpp in Sources */,
+				72D1376929232B72009F2FC6 /* VTDecoder.cpp in Sources */,
 				72D1375E291DE907009F2FC6 /* FileUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

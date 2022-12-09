@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include "ffmpegInclude.h"
+#include <functional>
 
 typedef void (*DecodeCallback)(int status, int type, AVFrame *frame);
 
@@ -22,11 +23,15 @@ class FFdecoder {
     AVFrame *_frame = NULL;
     AVPacket *_packet = NULL;
     
-    DecodeCallback _callback = NULL;
+    std::function<void(int status, int type, AVFrame *frame)> _callback;
+    
+//    std::function<void(int status, int type, AVFrame *frame)> &_callback1;
+//    DecodeCallback _callback = NULL;
     const char* _file = NULL;
     
 public:
-    FFdecoder(const char* file, DecodeCallback callback);
+//    FFdecoder(const char* file, DecodeCallback callback);
+    FFdecoder(const char* file, std::function<void(int status, int type, AVFrame *frame)> callback);
     ~FFdecoder();
     void start();
     int cancel();

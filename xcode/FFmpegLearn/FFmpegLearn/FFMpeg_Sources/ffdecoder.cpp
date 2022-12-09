@@ -8,8 +8,13 @@
 #include "ffdecoder.hpp"
 #include "FileUtils.hpp"
 
-FFdecoder::FFdecoder(const char* file, DecodeCallback callback) : _file(file), _callback(callback)
-{
+//FFdecoder::FFdecoder(const char* file, DecodeCallback callback) : _file(file), _callback(callback)
+//{
+//}
+
+
+FFdecoder::FFdecoder(const char* file, std::function<void(int status, int type, AVFrame *frame)> callback) : _file(file), _callback(callback) {
+    
 }
 
 void FFdecoder::start()

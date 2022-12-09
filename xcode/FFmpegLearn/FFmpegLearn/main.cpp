@@ -58,6 +58,24 @@ void decodeFile(const char * filePath)
     
 }
 
+auto lambda()
+{
+    std::string inPath = std::string("argv[1]");
+    auto lambda = [&inPath](int status, int type, AVFrame *frame) {
+        printf("in path %s\n", inPath.c_str());
+        if (frame) {
+            _renderer->render(frame);
+            _encoder->encodeVideoFrame(frame);
+        }
+        
+        if (status == 1) {
+            _encoder->finish();
+        }else if(status == -1) {
+            _encoder->cancel();
+        }
+    };
+    return lambda;
+}
 
 int main(int argc, const char * argv[]) {
     
@@ -68,8 +86,10 @@ int main(int argc, const char * argv[]) {
     _encoder->start();
     
     std::string inPath = std::string(argv[1]) + testVideo;
-    _decoder = new FFdecoder(inPath.c_str(), decodeCallBack);
+    auto lb = lambda();
+    _decoder = new FFdecoder(inPath.c_str(), lb);
     _decoder->start();
     
     return 0;
 }
+
